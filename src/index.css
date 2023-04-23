@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mi-header{
+    background-color: #000000; /* Color de fondo del header */
+    color: #fff; /* Color del texto del header */
+    padding: 40px; /* Espaciado interior del header */
+    text-align: center;
+    font-size: 30px;
+    
+  }
+  
+  .mi-header nav ul {
+    list-style: none; /* Quita los estilos de lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mi-header nav ul li {
+    display: inline; /* Muestra los elementos de navegación en línea */
+    margin-right: 70px; /* Espaciado entre los elementos de navegación */
+  }
+  
+  .mi-header nav ul li a {
+    color: #fff; /* Color de enlace del texto de navegación */
+    text-decoration: none; /* Quita subrayado de los enlaces */
+  }
+  
+  .mi-header nav ul li a:hover {
+    color: #00fff2; /* Color de enlace del texto de navegación en hover */
+  }
+
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
